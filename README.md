@@ -1,7 +1,7 @@
 PAC-man - The AIO ROM
 =====================
 
-Support Our Sites
+Support Their Sites
 ------------------------
 We have created many different ways to follow us. Please visit and support our efforts
 
@@ -54,7 +54,7 @@ Setup build environmnet - http://forum.xda-developers.com/showthread.php?t=22241
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
-    repo init -u git://github.com/PAC-man/android.git -b <branch>
+    repo init -u git://github.com/Cameron581/android-3.git -b cm-10.2
 
 Then to sync up:
 
