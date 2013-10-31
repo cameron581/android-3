@@ -17,6 +17,9 @@
            
   <remote  name="gh"
            fetch="https://github.com" />
+           
+  <remote  name="sp"
+           fetch="https://github.com/soupy031" />
 
   <!-- Specific remotes for third party projects -->
   <remote  name="cm"
@@ -37,7 +40,7 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="android_build" remote="pac" groups="pdk" >
+  <project path="build" name="android_build" remote="sp" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" groups="pdk" />
@@ -448,5 +451,7 @@
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.2" />
   <project name="Cl3Kener/HERC-KERNELS" path="kernel/samsung/msm8660-common" remote="gh" revision="cm-10.2" />
   <project name="thdDude/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="gh" revision="cm-10.2" />
+  <progect path="prebuilts/gcc/linux-x86/arm/Linaro" name="Cl3Kener/LINARO" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-X86/Linaro-Kernel" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
   
 </manifest>
