@@ -3,7 +3,7 @@
 
   <!-- Main remote for the PAC project -->
   <remote  name="pac"
-           fetch="https:/github.com/PAC-man" />
+           fetch="PAC-man" />
 
   <!-- Main remote for Android -->
   <remote  name="aosp"
