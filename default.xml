@@ -3,7 +3,7 @@
 
   <!-- Main remote for the PAC project -->
   <remote  name="pac"
-           fetch="PAC-man" />
+           fetch="https://github.com/PAC-man" />
 
   <!-- Main remote for Android -->
   <remote  name="aosp"
@@ -419,7 +419,7 @@
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
-  <project path="packages/apps/HALO" name="HALO" remote="pac" />
+  <project path="packages/apps/HALO" name="PAC-man/HALO" remote="gh" />
 
   <!-- PAC -->
   <project path="android" name="cameron581/android-3" remote="gh" />
